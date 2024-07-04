@@ -1,0 +1,234 @@
+h1
+    {
+        color:rgb(253, 253, 253);
+        font-size:larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+h2 
+    {
+        color:rgb(31, 15, 18);
+        font-size:large;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+p 
+    {color: black;
+    }    
+
+hr
+    {
+        height: 10px;;
+        color:black;
+        background-color: rgb(15, 13, 14);
+        border:none;
+    }
+
+
+.logo
+    { background-color: brown;
+      width: 30%;  
+      height: 80px;
+      float: left;
+    }
+
+.menu
+    {
+    background-color: rgb(26, 146, 90);
+    width: 70%;
+    height: 80px;
+    float: left;
+    }
+
+    {
+    max-width:1000px
+    margin:auto;
+    position:relative;
+    }
+
+
+
+    myslide/=image is hidden by default=/
+    {
+        display
+    }
+
+.slider1
+    { 
+    background-color: black;
+     width: 50%;
+    height: 550px;
+    float: left;
+}
+
+.slider2
+    {
+    background-color: rgb(123, 158, 89); 
+    width: 50%;
+    height: 550px;
+    float: left;
+    }
+    .my .slider
+    {
+        display:none
+    }
+    .prev,next/prev and next button
+    {
+        cursor:pointer
+        position: absolute
+        top:50%
+        width:auto
+        padding:20px
+        transition:0.5s;
+        border-radius:0 3px 3px 0;
+        user-select:none;
+    }
+    .next/position next button to the right/
+    {
+    right:0;
+    border-radius: 3px 0 0 3px
+    }
+
+    .dot/slideshow bullet/
+    {
+        cursor:pointer;
+        background-color:black
+        border-radius 50%
+        display:inline-block
+    }
+ 
+    .active,dot,haver
+    {
+        background-color:lightgrey;
+    }
+.box1
+    {
+    background-color: deeppink;
+    font-size: x-large;
+    width: 25%;
+    height:240px;
+    float:left
+    }
+
+.box2
+    {
+        background-color:rgb(255, 123, 0);
+        font-size: x-large;
+        width: 25%;
+        height: 240px;
+        Float:left
+    }
+
+.box3
+    {
+        background-color:blueviolet;
+        font-size: x-large;
+        width: 25%;
+        height:240px;
+        float: left;
+    }
+
+.box4
+    {background-color:rgb(204, 0, 255);
+        font-size: x-large;
+    width: 25%;
+    height: 240px;
+    float:left;
+    }
+
+.highlight1
+    {background-color: rgb(185, 32, 12);
+    width: 60%;
+    height:500px;
+    float:left;
+} 
+
+.highlight2
+    {background-color: rgb(47, 137, 255);
+    width: 40%;
+    height: 500px;
+    float:left;
+    }
+
+.m1
+    {background-color: blue;
+    width: 30%;
+    height:400px;
+    float:left;
+    }
+
+.m2
+    {background-color: darkgreen;
+    width: 10%;
+    height:400px;
+    float: left;
+    }
+
+.m3
+    {background-color: darkorange;
+        width: 30%;
+        height:400px;
+        float: left;
+        }
+
+.m4
+    {background-color: rgb(252, 5, 5);
+        width: 30%;
+        height:400px;
+        float: left;
+        }
+
+
+.footer
+    {background-color: rgb(161, 20, 74);
+        width: 100%;
+        height:500px;
+        float: left;
+        }
+
+
+table,tr,th,td
+    {
+        border: 1px solid black;
+        border-collapse:collapse ;
+        padding: 10px;
+      }
+tr
+    {
+    background-color: blanchedalmond;
+     }
+th
+     {
+     background-color: rgb(173, 204, 183);
+     color: rgb(250, 250, 250);
+      }
+tr:nth-child(even)
+      {
+        background-color: cornflowerblue;
+      }
+tr:hover
+      {
+        background-color: rgb(252, 5, 5);
+      }
+
+      nav
+         {   
+         font-family: verdana;
+         padding-bottom: 30px;
+         padding-top: 20px;
+         padding-left: 10px;
+         padding-right: 10px;
+         text-align: right;
+         font-size: 10pt
+         }
+a
+{
+   text-decoration: none;
+         margin-right: 15px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+         
+         
